@@ -33,7 +33,7 @@ const Navbar = () => {
             </ul>
 
             {/* Social icons */}
-            <div></div>
+            <div className='hidden'></div>
         </div>
     )
 }
