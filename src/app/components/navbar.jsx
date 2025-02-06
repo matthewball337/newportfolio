@@ -20,14 +20,20 @@ const Navbar = () => {
             </div>
 
             {/* Hamburger */}
-                <div>
-                    <FaBars />
-                </div>
-                {/* Mobile menu */}
-                <div></div>
+            <div className='hidden'>
+                <FaBars />
+            </div>
+            {/* Mobile menu */}
+            <ul className='hidden'>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Work</li>
+                <li>Contact</li>
+            </ul>
 
-                {/* Social icons */}
-                <div></div>
+            {/* Social icons */}
+            <div></div>
         </div>
     )
 }
