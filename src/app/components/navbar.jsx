@@ -9,7 +9,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#7df9ff] text-gray-600">
+        <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0096ff] text-gray-200">
             <div>
                 <img src='./assets/logo.png' alt="Logo Image" style={{width: '150px'}}/>
             </div>
@@ -54,13 +54,13 @@ const Navbar = () => {
                     <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#6fc2b0]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                         href="/">
-                            Email <HiOutlineMail className="mr-[-10px]" size={30} />
+                            Email <HiOutlineMail className="mr-[-10px] lg:mr-0 duration-300" size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#565f69]'>
+                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#565f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
                         href="/">
-                            Resume <BsFillPersonLinesFill size={30} />
+                            Resume <BsFillPersonLinesFill className="mr-[-10px] lg:mr-0 duration:300" size={30} />
                         </a>
                     </li>
                 </ul>
