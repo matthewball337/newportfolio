@@ -1,13 +1,15 @@
 'use client'
 
 import React, {useState} from 'react'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {HiOutlineMail} from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
     return (
-        <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#7df9ff] text-black">
+        <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#7df9ff] text-gray-600">
             <div>
                 <img src='./assets/logo.png' alt="Logo Image" style={{width: '150px'}}/>
             </div>
@@ -35,7 +37,34 @@ const Navbar = () => {
             </ul>
 
             {/* Social icons */}
-            <div className='hidden'></div>
+            <div className='flex fixed flex-col top-[35%] left-0'>
+                <ul>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
+                        <a className='flex justify-between items-center w-full text-gray-200'
+                        href="/">
+                            Linkedin <FaLinkedin size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
+                        <a className='flex justify-between items-center w-full text-gray-200'
+                        href="/">
+                            Github <FaGithub size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
+                        <a className='flex justify-between items-center w-full text-gray-200'
+                        href="/">
+                            Email <HaOutlineMail size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
+                        <a className='flex justify-between items-center w-full text-gray-200'
+                        href="/">
+                            Email <HaOutlineMail size={30} />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     )
 }
