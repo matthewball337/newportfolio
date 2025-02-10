@@ -6,6 +6,9 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#7df9ff]'>
 
             {/* Container */}
+            <div className='max-w-[1000px]'>
+
+            </div>
     </div>
   )
 }
