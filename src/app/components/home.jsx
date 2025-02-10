@@ -1,9 +1,10 @@
 import React from 'react'
+import {HiArrowNarrowRight} from 'react-icons/hi'
 
-const home = () => {
+const Home = () => {
   return (
-    <div>home</div>
+    <div>Home</div>
   )
 }
 
-export default home
+export default Home
