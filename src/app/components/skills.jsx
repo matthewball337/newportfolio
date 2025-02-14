@@ -34,8 +34,8 @@ const Skills = () => {
             <p className='my-4'>REACT.JS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/wordpress.png' alt="WordPress icon" />
-            <p className='my-4'>WordPress</p>
+            <img className='w-auto h-[80px] mx-auto' src='./assets/wordpress.png' alt="WordPress icon" />
+            <p className='my-4'>WORDPRESS WITH DIVI</p>
           </div>
         </div>
       </div>
