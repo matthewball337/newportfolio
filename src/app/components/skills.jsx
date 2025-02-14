@@ -1,9 +1,5 @@
 import React from 'react'
 
-//import GitHub from "./assets/github.png"
-//import Node from "./assets/node.png"
-//import Python from "./assets/python.png"
-//import ReactImage from "./assets/react.png"
 //import WordPress from "./assets/wordpress.png"
 
 const Skills = () => {
@@ -22,24 +18,24 @@ const Skills = () => {
             <p className='my-4'>C++</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
-            <p className='my-4'>C++</p>
+            <img className='w-20 mx-auto' src='./assets/github.png' alt="GitHub icon" />
+            <p className='my-4'>GITHUB</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
-            <p className='my-4'>C++</p>
+            <img className='w-20 mx-auto' src='./assets/node.png' alt="Node.js icon" />
+            <p className='my-4'>NODE.JS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
-            <p className='my-4'>C++</p>
+            <img className='w-20 mx-auto' src='./assets/python.png' alt="Python icon" />
+            <p className='my-4'>PYTHON</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
-            <p className='my-4'>C++</p>
+            <img className='w-20 mx-auto' src='./assets/react.png' alt="React.js icon" />
+            <p className='my-4'>REACT.JS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
-            <p className='my-4'>C++</p>
+            <img className='w-20 mx-auto' src='./assets/wordpress.png' alt="WordPress icon" />
+            <p className='my-4'>WordPress</p>
           </div>
         </div>
       </div>
