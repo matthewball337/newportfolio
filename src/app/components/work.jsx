@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Work = () => {
   return (
@@ -23,12 +24,9 @@ const Work = () => {
 WordPress Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                            <Link href="https://lmgtouring.net/las-vegas-studio/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Visit</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -43,12 +41,12 @@ WordPress Application
 Python Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <Link href="https://youtu.be/ZVb_hyPp00Q">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
+                            </Link>
+                            <Link href="https://github.com/matthewball337/AdvancedDataMiningProject">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -63,12 +61,12 @@ Python Application
 Software Engineering
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <Link href="https://www.youtube.com/watch?v=9d9_s5fxAq0">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
+                            </Link>
+                            <Link href="https://github.com/mina-andrawis/LKLD">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
