@@ -9,6 +9,7 @@ const Contact = () => {
                 <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - matthewball337@gmail.com</p>
             </div>
             <input type="text" placeholder='Name' name='name' />
+            <input type="text" placeholder='Email' name='email' />
         </form>
     </div>
   )
