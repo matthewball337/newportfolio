@@ -38,7 +38,7 @@ const Navbar = () => {
             </ul>
 
             {/* Social icons */}
-            <div className='flex fixed flex-col top-[35%] left-0'>
+            <div className='flex fixed flex-col top-[35%] left-0 sm:hidden'>
                 <ul>
                     <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
                         <Link className='flex justify-between items-center w-full text-gray-300'
@@ -62,6 +62,35 @@ const Navbar = () => {
                         <Link className='flex justify-between items-center w-full text-gray-300'
                         href="/">
                             Resume <BsFillPersonLinesFill className="mr-[-10px] lg:mr-0 duration:300" size={30} />
+                        </Link>
+                    </li>
+                </ul>
+            </div>
+            {/* Social icons */}
+            <div className='flex fixed flex-col top-[35%] left-0 md:hidden lg:hidden'>
+                <ul>
+                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
+                        <Link className='flex justify-between items-center w-full text-gray-300'
+                        href="https://www.linkedin.com/in/matthew-joseph-ball/">
+                            <FaLinkedin className="mr-[-10px] lg:mr-0 duration-300" size={30} />
+                        </Link>
+                    </li>
+                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#333333]'>
+                        <Link className='flex justify-between items-center w-full text-gray-300'
+                        href="https://github.com/matthewball337">
+                            <FaGithub className="mr-[-10px] lg:mr-0 duration-300" size={30} />
+                        </Link>
+                    </li>
+                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#6fc2b0]'>
+                        <Link className='flex justify-between items-center w-full text-gray-300'
+                        href="/">
+                            <HiOutlineMail className="mr-[-10px] lg:mr-0 duration-300" size={30} />
+                        </Link>
+                    </li>
+                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#565f69]'>
+                        <Link className='flex justify-between items-center w-full text-gray-300'
+                        href="/">
+                            <BsFillPersonLinesFill className="mr-[-10px] lg:mr-0 duration:300" size={30} />
                         </Link>
                     </li>
                 </ul>
