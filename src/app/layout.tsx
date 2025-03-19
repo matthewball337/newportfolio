@@ -10,6 +10,11 @@ const raleway = Raleway({
   variable: '--font-raleway'
 })
 
+export const metadata: Metadata = {
+  title: "Matthew Ball Portfolio",
+  description: "This is the portfolio of me, Matthew Ball.",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
