@@ -11,10 +11,15 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
     return (
         <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0096ff] text-gray-200">
-            <div>
+            <div className="flex grid-cols-2">
                 <img src='./assets/logo.png' alt="Logo Image" style={{width: '150px'}}/>
+                <div className="flex grid-cols-4 pt-4">
+                    <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://www.linkedin.com/in/matthew-joseph-ball"><FaLinkedin size={30} /></Link></div>
+                    <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://github.com/matthewball337"><FaGithub size={30} /></Link></div>
+                    <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><HiOutlineMail size={30}/></div>
+                    <div className="bg-[#565f69] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><BsFillPersonLinesFill size={30}/></div>
+                </div>
             </div>
-
             {/* menu */}
             <ul className='hidden md:flex'>
                 <li>Home</li>
@@ -29,43 +34,13 @@ const Navbar = () => {
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
             {/* Mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#7df9ff] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-blue-600 flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl'>Home</li>
                 <li className='py-6 text-4xl'>About</li>
                 <li className='py-6 text-4xl'>Skills</li>
                 <li className='py-6 text-4xl'>Work</li>
                 <li className='py-6 text-4xl'>Contact</li>
             </ul>
-
-            {/* Social icons */}
-            <div className='flex fixed flex-col top-[35%] left-0 sm:hidden'>
-                <ul>
-                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-blue-600'>
-                        <Link className='flex justify-between items-center w-full text-gray-300'
-                        href="https://www.linkedin.com/in/matthew-joseph-ball/">
-                            Linkedin <FaLinkedin className="mr-[-10px] lg:mr-0 duration-300" size={30} />
-                        </Link>
-                    </li>
-                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#333333]'>
-                        <Link className='flex justify-between items-center w-full text-gray-300'
-                        href="https://github.com/matthewball337">
-                            Github <FaGithub className="mr-[-10px] lg:mr-0 duration-300" size={30} />
-                        </Link>
-                    </li>
-                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#6fc2b0]'>
-                        <Link className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
-                            Email <HiOutlineMail className="mr-[-10px] lg:mr-0 duration-300" size={30} />
-                        </Link>
-                    </li>
-                    <li className='w-[80px] md:w-[142px] lg:w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10] duration-300 bg-[#565f69]'>
-                        <Link className='flex justify-between items-center w-full text-gray-300'
-                        href="/">
-                            Resume <BsFillPersonLinesFill className="mr-[-10px] lg:mr-0 duration:300" size={30} />
-                        </Link>
-                    </li>
-                </ul>
-            </div>
         </div>
     )
 }
