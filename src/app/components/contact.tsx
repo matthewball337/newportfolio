@@ -18,7 +18,7 @@ const Contact = () => {
 
   const [submitting, setSubmitting] = useState(false);
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: any) => { //eslint-disable-line
     const {name, value} = e.target;
     setFormData({
       ...formData,
@@ -26,7 +26,7 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: any) => { //eslint-disable-line
     e.preventDefault();
 
     track("Contact Form");
