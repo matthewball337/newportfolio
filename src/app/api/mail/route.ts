@@ -8,7 +8,7 @@ type ResponseData = {
   message?: string;
 };
 
-const transporter = nodemailer.createTransporter({
+const transporter = nodemailer.createTransport({
     host: "newportfolio.vercel.app",
     port: 587,
     secure: false,
@@ -20,15 +20,17 @@ const transporter = nodemailer.createTransporter({
 });
 
 async function messageInfo(message: string) {
-    const info = transporter.sendMail({
-        from: "username@newportfolio.vercel.app",
-        to: "matthewball337@gmail.com",
-        subject: "Contact",
-        text: { message },
-        html: `<b>${ message }</b>`,
-    })
+    if(message) {
+      const info = transporter.sendMail({
+          from: "username@newportfolio.vercel.app",
+          to: "matthewball337@gmail.com",
+          subject: "Contact",
+          text: `${ message }`,
+          html: `<b>${ message }</b>`,
+      })
 
-    console.log("Message sent: %s", info.messageId);
+      console.log("Message sent: %s", (await info).messageId);
+    }
 }
 
 export async function POST(request: Request) {
