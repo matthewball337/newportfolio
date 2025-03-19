@@ -40,7 +40,7 @@ export async function POST(request: Request) {
   
 
   try {
-    await sql`INSERT INTO "contactEntries" (name, email, message) VALUES (${
+    await sql`INSERT INTO "contactentries" (name, email, message) VALUES (${
       body.name
     }, ${body.email}, ${body.message});`;
     console.log("Successfully added entry");
