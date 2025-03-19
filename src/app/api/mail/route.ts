@@ -9,11 +9,11 @@ type ResponseData = {
 };
 
 const transporter = nodemailer.createTransport({
-    host: "newportfolio.vercel.app",
+    host: "newportfolio-iota-amber.vercel.app",
     port: 587,
     secure: false,
     auth: {
-        user: "username@newportfolio.vercel.app",
+        user: "info@newportfolio-iota-amber.vercel.app",
         pass: "password",
     }
 
@@ -22,7 +22,7 @@ const transporter = nodemailer.createTransport({
 async function messageInfo(message: string) {
     if(message) {
       const info = transporter.sendMail({
-          from: "username@newportfolio.vercel.app",
+          from: "info@newportfolio-iota-amber.vercel.app",
           to: "matthewball337@gmail.com",
           subject: "Contact",
           text: `${ message }`,
