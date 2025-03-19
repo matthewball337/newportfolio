@@ -1,4 +1,4 @@
-const nodemailer = require("nodemailer");
+import nodemailer from "nodemailer";
 import { track } from "@vercel/analytics/server";
 import { sql } from "@vercel/postgres"
 import { NextResponse } from "next/server";
@@ -32,7 +32,7 @@ async function messageInfo(message: string) {
 }
 
 export async function POST(request: Request) {
-  let response: ResponseData = {};
+  const response: ResponseData = {};
   const body = await request.json();
 
   
