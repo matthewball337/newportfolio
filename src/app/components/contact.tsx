@@ -61,7 +61,7 @@ const Contact = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold border-b-4 border-black text-gray-300 flex justify-center'>Contact</p>
           <p className='text-gray-300 py-4 max-w-[200px] justify-center'>
-            // Submit the form below or shoot me an email - matthewball337@gmail.com
+            &bsol;&bsol; Submit the form below or shoot me an email - matthewball337@gmail.com
           </p>
         </div>
         {submission.status === "error" && (
@@ -113,7 +113,7 @@ const Contact = () => {
               disabled={submitting}
               type="submit"
             >
-              Let's Collaborate
+              Let&apos;s Collaborate
             </button>
           </div>
         )};
