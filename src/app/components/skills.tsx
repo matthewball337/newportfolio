@@ -19,8 +19,8 @@ const Skills = () => {
             <p className='my-4'>C++</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-auto h-[90px] mx-auto' src='./assets/notepadplusplus.png' alt="Notepad++ icon" />
-            <p className='my-4'>NOTEPAD++</p>
+            <img className='w-auto h-[90px] mx-auto' src='./assets/tailwind.png' alt="Notepad++ icon" />
+            <p className='my-4'>Tailwind CSS</p>
           </div>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto' src='./assets/node.png' alt="Node.js icon" />
