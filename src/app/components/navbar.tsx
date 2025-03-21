@@ -14,11 +14,10 @@ const Navbar = () => {
         <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0096ff] text-gray-200">
             <div className="flex grid-cols-2">
                 <img src='./assets/logo.png' alt="Logo Image" style={{width: '150px'}}/>
-                <div className="flex grid-cols-4 pt-4">
+                <div className="flex grid-cols-3 pt-4">
                     <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://www.linkedin.com/in/matthew-joseph-ball"><FaLinkedin size={30} /></Link></div>
                     <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://github.com/matthewball337"><FaGithub size={30} /></Link></div>
                     <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="mailto:matthewball337@gmail.com"><HiOutlineMail size={30}/></Link></div>
-                    <div className="bg-[#565f69] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://drive.google.com/file/d/1OA5b48ZHEDIBO0DScmQhbaJxEumwUILd/view?usp=sharing"><BsFillPersonLinesFill size={30}/></Link></div>
                 </div>
             </div>
             {/* menu */}
@@ -47,6 +46,11 @@ const Navbar = () => {
                     <Scroll.Link to="contact" smooth={true} duration={500}>
                         Contact
                     </Scroll.Link>
+                </li>
+                <li>
+                    <Link href="https://drive.google.com/file/d/1OA5b48ZHEDIBO0DScmQhbaJxEumwUILd/view?usp=sharing">
+                        Resumé
+                    </Link>
                 </li>
             </ul>
 
@@ -85,6 +89,11 @@ const Navbar = () => {
                         smooth={true} duration={500}>
                         Contact
                     </Scroll.Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link href="https://drive.google.com/file/d/1OA5b48ZHEDIBO0DScmQhbaJxEumwUILd/view?usp=sharing">
+                        Resumé
+                    </Link>
                 </li>
             </ul>
         </div>
