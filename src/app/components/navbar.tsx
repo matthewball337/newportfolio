@@ -17,8 +17,8 @@ const Navbar = () => {
                 <div className="flex grid-cols-4 pt-4">
                     <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://www.linkedin.com/in/matthew-joseph-ball"><FaLinkedin size={30} /></Link></div>
                     <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://github.com/matthewball337"><FaGithub size={30} /></Link></div>
-                    <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><HiOutlineMail size={30}/></div>
-                    <div className="bg-[#565f69] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><BsFillPersonLinesFill size={30}/></div>
+                    <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="mailto:matthewball337@gmail.com"><HiOutlineMail size={30}/></Link></div>
+                    <div className="bg-[#565f69] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://drive.google.com/file/d/1OA5b48ZHEDIBO0DScmQhbaJxEumwUILd/view?usp=sharing"><BsFillPersonLinesFill size={30}/></Link></div>
                 </div>
             </div>
             {/* menu */}
