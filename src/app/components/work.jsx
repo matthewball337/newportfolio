@@ -84,7 +84,7 @@ Software Engineering
 React Yodeck Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <Link href="https://youtu.be/EJcnxb7TY-o">
+                            <Link href="https://youtu.be/jpQl4LU23jU">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>'
                             </Link>
                             <Link href="https://yodeck-site.vercel.app/">
