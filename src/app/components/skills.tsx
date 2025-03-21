@@ -14,27 +14,27 @@ const Skills = () => {
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-20 mx-auto' src='./assets/cplusplus.png' alt="C++ icon" />
             <p className='my-4'>C++</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-auto h-[90px] mx-auto' src='./assets/tailwind.png' alt="Notepad++ icon" />
             <p className='my-4'>Tailwind CSS</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-20 mx-auto' src='./assets/node.png' alt="Node.js icon" />
             <p className='my-4'>NODE JS</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-20 mx-auto' src='./assets/python.png' alt="Python icon" />
             <p className='my-4'>PYTHON</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-20 mx-auto' src='./assets/react.png' alt="React.js icon" />
             <p className='my-4'>REACT JS</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 p-4 bg-[#0a192f]'>
             <img className='w-auto h-[80px] mx-auto' src='./assets/wordpress.png' alt="WordPress icon" />
             <p className='my-4'>WORDPRESS WITH DIVI</p>
           </div>
