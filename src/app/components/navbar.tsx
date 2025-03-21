@@ -3,7 +3,6 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
 import * as Scroll from 'react-scroll';
 
@@ -13,7 +12,8 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0096ff] text-gray-200">
             <div className="flex grid-cols-2">
-                <img src='./assets/logo.png' alt="Logo Image" style={{width: '150px'}}/>
+                <img className="invert" src='./assets/logo.png'
+                    alt="Logo Image" style={{width: '150px'}}/>
                 <div className="flex grid-cols-3 pt-4">
                     <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://www.linkedin.com/in/matthew-joseph-ball"><FaLinkedin size={30} /></Link></div>
                     <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://github.com/matthewball337"><FaGithub size={30} /></Link></div>
