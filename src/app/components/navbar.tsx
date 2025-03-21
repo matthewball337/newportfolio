@@ -56,11 +56,36 @@ const Navbar = () => {
             </div>
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-blue-600 flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>About</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>Work</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'>
+                    <Scroll.Link onClick={handleClick} to="home" 
+                        smooth={true} duration={500}>
+                        Home
+                    </Scroll.Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Scroll.Link onClick={handleClick} to="about"
+                        smooth={true} duration={500}>
+                        About
+                    </Scroll.Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Scroll.Link onClick={handleClick} to="skills"
+                        smooth={true} duration={500}>
+                        Skills
+                    </Scroll.Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Scroll.Link onClick={handleClick} to="work"
+                        smooth={true} duration={500}>
+                        Work
+                    </Scroll.Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Scroll.Link onClick={handleClick} to="contact"
+                        smooth={true} duration={500}>
+                        Contact
+                    </Scroll.Link>
+                </li>
             </ul>
         </div>
     )
