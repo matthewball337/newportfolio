@@ -48,7 +48,7 @@ const Navbar = () => {
                     </Scroll.Link>
                 </li>
                 <li>
-                    <Link href="https://drive.google.com/file/d/13IOXHxa7_D6iVfJk71Lheyh0NNYDXpRz/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/1pDilD2IkzgEy_NnCvvj02lWgH_a6xEFy/view?usp=sharing">
                         Resumé
                     </Link>
                 </li>
