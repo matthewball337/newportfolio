@@ -15,13 +15,25 @@ const Navbar = () => {
                 <img className="invert" src='./assets/logo.png'
                     alt="Logo Image" style={{width: '150px'}}/>
                 <div className="flex grid-cols-3 pt-4">
-                    <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://www.linkedin.com/in/matthew-joseph-ball"><FaLinkedin size={30} /></Link></div>
-                    <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="https://github.com/matthewball337"><FaGithub size={30} /></Link></div>
-                    <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500"><Link href="mailto:matthewball337@gmail.com"><HiOutlineMail size={30}/></Link></div>
+                    <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500">
+                        <Link href="https://www.linkedin.com/in/matthew-joseph-ball">
+                            <FaLinkedin size={30} />
+                        </Link>
+                    </div>
+                    <div className="bg-[#333333] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500">
+                        <Link href="https://github.com/matthewball337">
+                            <FaGithub size={30} />
+                        </Link>
+                    </div>
+                    <div className="bg-[#6fc2b0] text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500">
+                        <Link href="mailto:matthewball337@gmail.com">
+                            <HiOutlineMail size={30}/>
+                        </Link>
+                    </div>
                 </div>
             </div>
             {/* menu */}
-            <ul className='hidden md:flex'>
+            <ul className='hidden lg:flex'>
                 <li>
                     <Scroll.Link to="home" smooth={true} duration={500}>
                         Home
@@ -55,8 +67,8 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='md:hidden z-10'>
-                {!nav ? <FaBars /> : <FaTimes />}
+            <div onClick={handleClick} className='lg:hidden z-10 -mt-1.5'>
+                {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
             </div>
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-blue-600 flex flex-col justify-center items-center'}>
