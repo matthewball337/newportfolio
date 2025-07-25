@@ -60,7 +60,7 @@ const Navbar = () => {
                     </Scroll.Link>
                 </li>
                 <li>
-                    <Link href="https://drive.google.com/file/d/1jFAm851Nx3xgVbCgrtFnYebnSidGXOYz/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/18YsE02sYvhYdSw0g9dwxIFUbqUiQLXOD/view?usp=drive_link">
                         Resumé
                     </Link>
                 </li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                     </Scroll.Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <Link href="https://drive.google.com/file/d/1jFAm851Nx3xgVbCgrtFnYebnSidGXOYz/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/18YsE02sYvhYdSw0g9dwxIFUbqUiQLXOD/view?usp=drive_link">
                         Resumé
                     </Link>
                 </li>
