@@ -25,9 +25,12 @@ export default function GridItem({
     <div
         style={{backgroundImage: `url(${backgroundImage})`}}
         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+        {/* Black Overlay */}
+        {/* <div className="relative w-full h-full opacity-70 bg-black" /> */}
     
         {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
+            <div className='opacity-0 group-hover:opacity-100 bg-pink-600 bg-opacity-70 p-4'>
                 <span className='text-2xl font-bold text-white tracking-wider flex'>
                     {title}
                 </span>

@@ -18,7 +18,7 @@ const Contact = () => {
         <textarea name="message" placeholder="Message" rows={10}
         className='bg-[#ccd6f6] p-2' required />
         <button
-        className='text-white border-2 hover:bg-black hover:border-black px-4 py-3 my-8 mx-auto flex items-center'
+        className='text-white border-2 hover:bg-pink-600 hover:border-black px-4 py-3 my-8 mx-auto flex items-center'
         type="submit">
           Let&apos;s Collaborate
         </button>

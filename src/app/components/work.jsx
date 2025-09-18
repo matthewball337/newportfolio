@@ -15,65 +15,9 @@ const Work = () => {
             { /* Container */}
             <div className="grid m:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-4">
                 <GridItem backgroundImage="./assets/workImg.png" title="WordPress Application" options={["Demo", "Visit"]} links={["https://www.youtube.com/watch?v=EJcnxb7TY-o", "https://lmg-touring.net/las-vegas-studio/"]} />
-                {/* Grid Item */}
-                <div
-                style={{backgroundImage: `url(./assets/advancedDataMining.png)`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-yellow-500 tracking-wider'>
-Python Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <Link href="https://youtu.be/ZVb_hyPp00Q">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Demo</button>
-                            </Link>
-                            <Link href="https://github.com/matthewball337/AdvancedDataMiningProject">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Code</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                {/* Grid Item */}
-                <div
-                style={{backgroundImage: `url(./assets/softwareEngineeringCapstone.png)`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl text-center font-bold text-red-900 tracking-wider p-4'>
-Software Engineering
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <Link href="https://www.youtube.com/watch?v=9d9_s5fxAq0">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Demo</button>
-                            </Link>
-                            <Link href="https://github.com/mina-andrawis/LKLD">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Code</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div
-                style={{backgroundImage: `url(./assets/yodeck.jpeg)`}}
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div bg-contain'>
-
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl text-center px-5000 font-bold text-white tracking-wider p-4'>
-React Yodeck Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <Link href="https://youtu.be/jpQl4LU23jU">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Demo</button>'
-                            </Link>
-                            <Link href="https://yodeck-site.vercel.app/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:-translate-y-2'>Visit</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+                <GridItem backgroundImage="./assets/advancedDataMining.png" title="Python Application" options={["Demo", "Code"]} links={["https://youtu.be/ZVb_hyPp00Q", "https://github.com/matthewball337/AdvancedDataMiningProject" ]} />
+                <GridItem backgroundImage="./assets/softwareEngineeringCapstone.png" title="Software Engineering" options={["Demo", "Code"]} links={["https://www.youtube.com/watch?v=9d9_s5fxAq0", "https://github.com/mina-andrawis/LKLD"]} />
+                <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/"]} />
             </div>
         </div>
     </div>

@@ -34,32 +34,32 @@ const Navbar = () => {
             </div>
             {/* menu */}
             <ul className='hidden lg:flex'>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Scroll.Link to="home" smooth={true} duration={500}>
                         Home
                     </Scroll.Link>
                 </li>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Scroll.Link to="about" smooth={true} duration={500}>
                         About
                     </Scroll.Link>
                 </li>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Scroll.Link to="skills" smooth={true} duration={500}>
                         Skills
                     </Scroll.Link>
                 </li>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Scroll.Link to="work" smooth={true} duration={500}>
                         Work
                     </Scroll.Link>
                 </li>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Scroll.Link to="contact" smooth={true} duration={500}>
                         Contact
                     </Scroll.Link>
                 </li>
-                <li className="hover:text-black">
+                <li className="hover:text-pink-600">
                     <Link href="https://drive.google.com/file/d/18YsE02sYvhYdSw0g9dwxIFUbqUiQLXOD/view?usp=drive_link">
                         Resumé
                     </Link>
@@ -67,42 +67,42 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='lg:hidden z-10 -mt-1.5 hover:text-black'>
+            <div onClick={handleClick} className='lg:hidden z-10 -mt-1.5 hover:text-pink-600'>
                 {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
             </div>
             {/* Mobile menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-blue-600 flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Scroll.Link onClick={handleClick} to="home" 
                         smooth={true} duration={500}>
                         Home
                     </Scroll.Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Scroll.Link onClick={handleClick} to="about"
                         smooth={true} duration={500}>
                         About
                     </Scroll.Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Scroll.Link onClick={handleClick} to="skills"
                         smooth={true} duration={500}>
                         Skills
                     </Scroll.Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Scroll.Link onClick={handleClick} to="work"
                         smooth={true} duration={500}>
                         Work
                     </Scroll.Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Scroll.Link onClick={handleClick} to="contact"
                         smooth={true} duration={500}>
                         Contact
                     </Scroll.Link>
                 </li>
-                <li className='py-6 text-4xl hover:text-black'>
+                <li className='py-6 text-4xl hover:text-pink-600'>
                     <Link href="https://drive.google.com/file/d/18YsE02sYvhYdSw0g9dwxIFUbqUiQLXOD/view?usp=drive_link">
                         Resumé
                     </Link>
