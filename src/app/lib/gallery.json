@@ -3,35 +3,77 @@
         "source": "/assets/portfolio_gallery_1.png",
         "title": "Videos and Images",
         "description": "This page on the digital signage was created to display videos and images that are added by the company on Sanity. Then, the library function retrieves the video or image attributes (URL, playback ID) and puts them into an object, that is JSON stringified and then sent to a page component, which displays either a MuxVideo or next/image depending on the attributes.",
-        "width": 424,
-        "height": 1440
+        "width": 136,
+        "height": 576
     },
     {
         "source": "/assets/portfolio_gallery_2.png",
         "title": "Job Listings",
         "description": "This page on the digital signage displays the job listings for the company. They are also populated from Sanity and display the content dynamically with React.",
-        "width": 424,
-        "height": 1440
+        "width": 136,
+        "height": 461
     },
     {
         "source": "/assets/portfolio_gallery_3.png",
         "title": "Anniversaries Television",
         "description": "The logic is the same as the anniversaries shown in the YouTube video. The anniversaries are gathered from a CSV file that is retrieved from Sanity and parsed using the csv-file library. The contents are stored in an array of objects that are passed to the display.",
-        "width": 2554,
-        "height": 1440
+        "width": 1022,
+        "height": 576
     },
     {
         "source": "/assets/portfolio_gallery_4.png",
         "title": "Atrium Television",
         "description": "This is the slide on the digital signage for the Atrium (cafeteria) menu, to be displayed on the television. Similar to the anniversaries, the menu is also retrieved from a CSV file. The days of week/menu items are unique Sanity components.",
-        "width": 2554,
-        "height": 1440
+        "width": 1022,
+        "height": 576
     },
     {
         "source": "/assets/portfolio_gallery_5.png",
         "title": "Videos and Images Television",
         "description": "This is videos and images, but it only displays content of the teleivision aspect ratio (1920x1080).",
-        "width": 2554,
-        "height": 1440
+        "width": 1022,
+        "height": 576
+    },
+    {
+        "source": "/assets/portfolio_gallery_6.png",
+        "title": "Job Listings Television",
+        "description": "This is the job listings page, but the layout is formatted for the television aspect ratio.",
+        "width": 1022,
+        "height": 576
+    },
+    {
+        "source": "/assets/portfolio_gallery_7.png",
+        "title": "Anniversaries Vertical Television",
+        "description": "This is the employee anniversaries page, but for the aspect ratio of vertical televisions (1080x1920).",
+        "width": 286,
+        "height": 514
+    },
+    {
+        "source": "/assets/portfolio_gallery_8.png",
+        "title": "Atrium Vertical Television",
+        "description": "This is the page of the Atrium menu, but for the aspect ratio of vertical televisions (1080x1920).",
+        "width": 286,
+        "height": 514
+    },
+    {
+        "source": "/assets/portfolio_gallery_9.png",
+        "title": "Videos and Images Vertical Television",
+        "description": "This is videos and images, but it only displays content of the vertical teleivision aspect ratio (1080x1920).",
+        "width": 286,
+        "height": 514
+    },
+    {
+        "source": "/assets/portfolio_gallery_10.png",
+        "title": "Job Listings Vertical Television",
+        "description": "This is the job listings page, but for the aspect ratio of vertical televisions (1080x1920).",
+        "width": 286,
+        "height": 514
+    },
+    {
+        "source": "/assets/portfolio_gallery_11.png",
+        "title": "Outbounds",
+        "description": "This site displays the outbound traffic coming from the warehouse. It takes data from the Azure API with an SQL query and only counts the outbounds from the current day. Data is displayed two outbounds at a time, or one outbound at a time if there is only one.",
+        "width": 266,
+        "height": 478
     }
 ]

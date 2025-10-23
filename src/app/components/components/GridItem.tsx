@@ -1,4 +1,3 @@
-import { Anybody } from "next/font/google";
 import Link from "next/link"
 
 interface GridItemProps {
@@ -25,9 +24,6 @@ export default function GridItem({
     <div
         style={{backgroundImage: `url(${backgroundImage})`}}
         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-        {/* Black Overlay */}
-        {/* <div className="relative w-full h-full opacity-70 bg-black" /> */}
     
         {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 bg-pink-600 bg-opacity-70 p-4'>

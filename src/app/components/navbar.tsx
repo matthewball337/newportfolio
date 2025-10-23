@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import Link from 'next/link'
+import Image from 'next/image'
 import * as Scroll from 'react-scroll';
 
 const Navbar = () => {
@@ -12,8 +13,8 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-[100px] flex justify-between items-center px-4 z-10 bg-[#0096ff] text-gray-200">
             <div className="flex grid-cols-2">
-                <img className="invert" src='./assets/logo.png'
-                    alt="Logo Image" style={{width: '150px'}}/>
+                <Image className="invert w-[150px]" src='/assets/logo.png'
+                    alt="Logo Image" width={1152} height={648} />
                 <div className="flex grid-cols-3 pt-4">
                     <div className="bg-blue-600 text-gray-300 p-2 max-h-[40px] hover:scale-110 duration-500">
                         <Link href="https://www.linkedin.com/in/matthew-joseph-ball">
