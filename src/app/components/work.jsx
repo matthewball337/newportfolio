@@ -17,7 +17,7 @@ const Work = () => {
                 <GridItem backgroundImage="./assets/workImg.png" title="WordPress Application" options={["Demo", "Visit"]} links={["https://www.youtube.com/watch?v=EJcnxb7TY-o", "https://lmg-touring.net/las-vegas-studio/"]} />
                 <GridItem backgroundImage="./assets/advancedDataMining.png" title="Python Application" options={["Demo", "Code"]} links={["https://youtu.be/ZVb_hyPp00Q", "https://github.com/matthewball337/AdvancedDataMiningProject" ]} />
                 <GridItem backgroundImage="./assets/softwareEngineeringCapstone.png" title="Software Engineering" options={["Demo", "Code"]} links={["https://www.youtube.com/watch?v=9d9_s5fxAq0", "https://github.com/mina-andrawis/LKLD"]} />
-                <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/"]} />
+                <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit", "Gallery"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/", "/yodeck-gallery"]} />
             </div>
         </div>
     </div>
