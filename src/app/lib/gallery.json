@@ -75,5 +75,12 @@
         "description": "This site displays the outbound traffic coming from the warehouse. It takes data from the Azure API with an SQL query and only counts the outbounds from the current day. Data is displayed two outbounds at a time, or one outbound at a time if there is only one.",
         "width": 266,
         "height": 478
+    },
+    {
+        "source": "/assets/portfolio_gallery_12.png",
+        "title": "Inbounds",
+        "description": "This site displays the inbound traffic coming into the warehouse. It works the same way as the outbounds page, except with inbounds instead of outbounds.",
+        "width": 269,
+        "height": 482
     }
 ]
