@@ -82,5 +82,26 @@
         "description": "This site displays the inbound traffic coming into the warehouse. It works the same way as the outbounds page, except with inbounds instead of outbounds.",
         "width": 269,
         "height": 482
+    },
+    {
+        "source": "/assets/portfolio_gallery_13.png",
+        "title": "Rosen Grads Message Board L",
+        "description": "Left side of Rosen Grads message board. Grabs grads from ETP Sanity and randomly displays them. First Yodeck page made with help of Claude.",
+        "width": 127,
+        "height": 443
+    },
+    {
+        "source": "/assets/portfolio_gallery_14.png",
+        "title": "Rosen Grads Message Board R",
+        "description": "Right side of Rosens Grad message board. Grabs current grads from ETP Sanity and former grads from Yodeck Sanity. Optimized texture mapping for Yodeck.",
+        "width": 132,
+        "height": 447
+    },
+    {
+        "source": "/assets/portfolio_gallery_15.png",
+        "title": "Rosen Grads Television",
+        "description": "Rosen grads television page. Both sides together with more grads on screen at once.",
+        "width": 797,
+        "height": 447
     }
 ]
