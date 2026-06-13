@@ -42,7 +42,7 @@ export default function Gallery({galleryImages = "[]"}: GalleryProps) {
                     alt={myGallery[currentImage].title}
                     width={myGallery[currentImage].width}
                     height={myGallery[currentImage].height}
-                    className="pt-0 px-0"
+                    className="max-w-[70vw] max-h-[60vh] w-auto h-auto"
                 />
             </div>
             <div className="ml-20 mr-20 text-center">

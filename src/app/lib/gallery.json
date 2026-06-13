@@ -103,5 +103,12 @@
         "description": "Rosen grads television page. Both sides together with more grads on screen at once.",
         "width": 797,
         "height": 447
+    },
+    {
+        "source": "/assets/portfolio_gallery_16.png",
+        "title": "Rosen Grads Vertical TV",
+        "description": "Rosen grads vertical TV page. Takes advantage of all the real estate, with one column.",
+        "width": 450,
+        "height": 797
     }
 ]
