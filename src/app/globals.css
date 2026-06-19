@@ -28,6 +28,10 @@
   )!important;
 }
 
+.work-grid > *:nth-child(odd):last-child {
+  justify-self: center;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
