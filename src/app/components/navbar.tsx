@@ -61,7 +61,7 @@ const Navbar = () => {
                     </Scroll.Link>
                 </li>
                 <li className="hover:text-pink-600">
-                    <Link href="https://drive.google.com/file/d/1lHxedIF2l0QDCMq_HCRxBNkCX8qqCSH_/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/1jbWx1-qh3ymZSlfIEF-ZgWQ2iaVwl3V8/view?usp=sharing">
                         Resumé
                     </Link>
                 </li>
@@ -104,7 +104,7 @@ const Navbar = () => {
                     </Scroll.Link>
                 </li>
                 <li className='py-6 text-4xl hover:text-pink-600'>
-                    <Link href="https://drive.google.com/file/d/1lHxedIF2l0QDCMq_HCRxBNkCX8qqCSH_/view?usp=sharing">
+                    <Link href="https://drive.google.com/file/d/1jbWx1-qh3ymZSlfIEF-ZgWQ2iaVwl3V8/view?usp=sharing">
                         Resumé
                     </Link>
                 </li>
