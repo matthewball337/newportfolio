@@ -110,5 +110,19 @@
         "description": "Rosen grads vertical TV page. Takes advantage of all the real estate, with one column.",
         "width": 450,
         "height": 797
+    },
+    {
+        "source": "/assets/portfolio_gallery_17.png",
+        "title": "Projects Week",
+        "description": "Page for projects on TVs in London. Grabs projects from R2 and shows them in a grid.",
+        "width": 1152,
+        "height": 648
+    },
+    {
+        "source": "/assets/portfolio_gallery_18.png",
+        "title": "Projects Month",
+        "description": "Shows projects for the month, grabs from same sources at week. Cycles between them, also available for just town hall events.",
+        "width": 1153,
+        "height": 641
     }
 ]
