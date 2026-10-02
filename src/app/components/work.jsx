@@ -19,6 +19,7 @@ const Work = () => {
                 <GridItem backgroundImage="./assets/softwareEngineeringCapstone.png" title="Software Engineering" options={["Demo", "Code"]} links={["https://www.youtube.com/watch?v=9d9_s5fxAq0", "https://github.com/mina-andrawis/LKLD"]} />
                 <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit", "Gallery"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/", "/yodeck-gallery"]} />
                 <GridItem backgroundImage="./assets/coil_thumbnail.png" title="CoiL Learning Center" options={["Demo", "Visit"]} links={["https://youtu.be/cdgwFG28w7o", "https://www.coillearningcenter.com/"]} />
+                <GridItem backgroundImage="./assets/lmg_thumbnail.png" title="LMG" options={["Demo", "Visit"]} links={["https://youtube.com/playlist?list=PLRo0vQcBQwgM&si=O9p2xcvGDI1nzP5g", "https://lmg.net/"]} />
             </div>
         </div>
     </div>
