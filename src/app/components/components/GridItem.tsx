@@ -23,11 +23,11 @@ export default function GridItem({
     return (
     <div
         style={{backgroundImage: `url(${backgroundImage})`}}
-        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div last:lg:col-span-2 last:lg:justify-self-center'>
+        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
     
         {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 bg-pink-600 bg-opacity-70 p-4'>
-                <span className='text-2xl font-bold text-white tracking-wider flex'>
+                <span className='block w-full text-center text-2xl font-bold text-white tracking-wider'>
                     {title}
                 </span>
                 <div className='pt-8 text-center'>
