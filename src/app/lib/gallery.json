@@ -121,7 +121,7 @@
     {
         "source": "/assets/portfolio_gallery_18.png",
         "title": "Projects Month",
-        "description": "Shows projects for the month, grabs from same sources at week. Cycles between them, also available for just town hall events.",
+        "description": "Shows projects for the month, grabs from same sources as week. Projects show in intervals between start and end date. Cycles between them, also available for just town hall events.",
         "width": 1196,
         "height": 667
     }
