@@ -28,8 +28,8 @@
   )!important;
 }
 
-.work-grid > *:nth-child(odd):last-child {
-  justify-self: center;
+.work-grid > *:last-child {
+  grid-column: 1 / -1;
 }
 
 :root {

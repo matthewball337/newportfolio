@@ -23,7 +23,7 @@ export default function GridItem({
     return (
     <div
         style={{backgroundImage: `url(${backgroundImage})`}}
-        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+        className='shadow-lg shadow-[#040c16] group w-full rounded-md flex justify-center items-center content-div'>
     
         {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 bg-pink-600 bg-opacity-70 p-4'>

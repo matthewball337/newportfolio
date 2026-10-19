@@ -9,7 +9,7 @@ const Work = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-black'>
                     <br /><br />Work</p>
-                <p className='py-6'>&#92;&#92;Check out some of my recent work</p>
+                <p className='py-6'>Check out some of my recent work.</p>
             </div>
 
             { /* Container */}
@@ -20,6 +20,7 @@ const Work = () => {
                 <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit", "Gallery"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/", "/yodeck-gallery"]} />
                 <GridItem backgroundImage="./assets/coil_thumbnail.png" title="CoiL Learning Center" options={["Demo", "Visit"]} links={["https://youtu.be/cdgwFG28w7o", "https://www.coillearningcenter.com/"]} />
                 <GridItem backgroundImage="./assets/lmg_thumbnail.png" title="LMG" options={["Demo", "Visit"]} links={["https://youtube.com/playlist?list=PLRo0vQcBQwgM&si=O9p2xcvGDI1nzP5g", "https://lmg.net/"]} />
+                <GridItem backgroundImage="./assets/etp_thumbnail.png" title="ETP" options={["Demo", "Visit"]} links={["https://youtu.be/GZYdw4_he1M", "https://www.etp.net/"]} />
             </div>
         </div>
     </div>
