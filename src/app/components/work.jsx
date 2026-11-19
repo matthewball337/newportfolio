@@ -22,6 +22,7 @@ const Work = () => {
                 <GridItem backgroundImage="./assets/lmg_thumbnail.png" title="LMG" options={["Demo", "Visit"]} links={["https://youtube.com/playlist?list=PLRo0vQcBQwgM&si=O9p2xcvGDI1nzP5g", "https://lmg.net/"]} />
                 <GridItem backgroundImage="./assets/etp_thumbnail.png" title="ETP" options={["Demo", "Visit"]} links={["https://youtu.be/GZYdw4_he1M", "https://www.etp.net/"]} />
                 <GridItem backgroundImage="./assets/touring_thumbnail.png" title="LMG Touring" options={["Demo", "Visit"]} links={["https://www.youtube.com/playlist?list=PLB_aSKY94S34", "https://lmgtouring.net/"]} />
+                <GridItem backgroundImage="./assets/knw_thumbnail.png" title="knw" options={["Demo", "Visit", "savvy"]} links={["https://youtu.be/-VLhMytVbwk", "https://knw.net/", "https://savvy.knw.net/"]} />
             </div>
         </div>
     </div>
