@@ -9,16 +9,20 @@ const Work = () => {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-black'>
                     <br /><br />Work</p>
-                <p className='py-6'>&#92;&#92;Check out some of my recent work</p>
+                <p className='py-6'>Check out some of my recent work.</p>
             </div>
 
             { /* Container */}
             <div className="grid work-grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-                <GridItem backgroundImage="./assets/workImg.png" title="WordPress Application" options={["Demo", "Visit"]} links={["https://www.youtube.com/watch?v=EJcnxb7TY-o", "https://lmgtouring.net/las-vegas-studio/"]} />
+                <GridItem backgroundImage="./assets/workImg.png" title="WordPress Application" options={["Demo"]} links={["https://www.youtube.com/watch?v=EJcnxb7TY-o"]} />
                 <GridItem backgroundImage="./assets/advancedDataMining.png" title="Python Application" options={["Demo", "Code"]} links={["https://youtu.be/ZVb_hyPp00Q", "https://github.com/matthewball337/AdvancedDataMiningProject" ]} />
                 <GridItem backgroundImage="./assets/softwareEngineeringCapstone.png" title="Software Engineering" options={["Demo", "Code"]} links={["https://www.youtube.com/watch?v=9d9_s5fxAq0", "https://github.com/mina-andrawis/LKLD"]} />
                 <GridItem backgroundImage="./assets/yodeck.jpeg" title="React Digital Signage" options={["Demo", "Visit", "Gallery"]} links={["https://youtu.be/jpQl4LU23jU", "https://yodeck-site.vercel.app/", "/yodeck-gallery"]} />
                 <GridItem backgroundImage="./assets/coil_thumbnail.png" title="CoiL Learning Center" options={["Demo", "Visit"]} links={["https://youtu.be/cdgwFG28w7o", "https://www.coillearningcenter.com/"]} />
+                <GridItem backgroundImage="./assets/lmg_thumbnail.png" title="LMG" options={["Demo", "Visit"]} links={["https://youtube.com/playlist?list=PLRo0vQcBQwgM&si=O9p2xcvGDI1nzP5g", "https://lmg.net/"]} />
+                <GridItem backgroundImage="./assets/etp_thumbnail.png" title="ETP" options={["Demo", "Visit"]} links={["https://youtu.be/GZYdw4_he1M", "https://www.etp.net/"]} />
+                <GridItem backgroundImage="./assets/touring_thumbnail.png" title="LMG Touring" options={["Demo", "Visit"]} links={["https://www.youtube.com/playlist?list=PLB_aSKY94S34", "https://lmgtouring.net/"]} />
+                <GridItem backgroundImage="./assets/knw_thumbnail.png" title="knw" options={["Demo", "Visit", "savvy"]} links={["https://youtu.be/-VLhMytVbwk", "https://knw.net/", "https://savvy.knw.net/"]} />
             </div>
         </div>
     </div>
